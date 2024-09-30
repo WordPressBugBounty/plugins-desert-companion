@@ -106,7 +106,9 @@ class Desert_Companion_Customize_Upgrade_Control extends WP_Customize_Control {
 		elseif('Flexina' == $desert_activated_theme->name):
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/flexina-pro/';	
 		elseif('Crombit' == $desert_activated_theme->name):
-			$upgrade_to_pro_link = 'https://desertthemes.com/themes/crombit-pro/';		
+			$upgrade_to_pro_link = 'https://desertthemes.com/themes/crombit-pro/';
+		elseif('Corvita' == $desert_activated_theme->name):
+			$upgrade_to_pro_link = 'https://desertthemes.com/themes/corvita-pro/';	
 		else:
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/cosmobit-pro/';
 		endif;	

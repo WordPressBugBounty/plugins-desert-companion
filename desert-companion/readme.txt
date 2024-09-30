@@ -3,7 +3,7 @@ Contributors: Desertthemes
 Tags: projects, widgets, admin, companion, homepage
 Requires at least: 4.6 or higher
 Tested up to: 6.6
-Stable tag: 1.0.75
+Stable tag: 1.0.76
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -98,6 +98,9 @@ Licenses - https://github.com/uikit/uikit/blob/develop/LICENSE.md
 Source: https://www.getuikit.com
 
 == Changelog ==
+
+= 1.0.76 =
+* Corvita Theme Files Updated
 
 = 1.0.75 =
 * Crombit Theme Files Updated

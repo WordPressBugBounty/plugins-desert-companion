@@ -1,5 +1,10 @@
 <?php
+$desert_activated_theme = wp_get_theme(); // gets the current theme
+if ( 'Corvita' == $desert_activated_theme->name){
+$site_logo = desert_companion_plugin_dir .'inc/themes/corvita/assets/images/logo.png';
+}else{
 $site_logo = desert_companion_plugin_dir .'inc/themes/corpiva/assets/images/logo.png';
+}
 $theme_img_path = desert_companion_plugin_dir .'inc/themes/corpiva/assets/images';
 
 $images = array(
