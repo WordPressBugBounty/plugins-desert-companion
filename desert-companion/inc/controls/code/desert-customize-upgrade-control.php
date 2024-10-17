@@ -91,7 +91,7 @@ class Desert_Companion_Customize_Upgrade_Control extends WP_Customize_Control {
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/aahana-pro/';		
 		elseif('NewsMash' == $desert_activated_theme->name || 'NewsDaily' == $desert_activated_theme->name || 'DayStory' == $desert_activated_theme->name  || 'NewsAlt' == $desert_activated_theme->name  || 'NewsHours' == $desert_activated_theme->name):
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/newsmash-pro/';
-		elseif('NewsMunch' == $desert_activated_theme->name || 'NewsTick' == $desert_activated_theme->name):
+		elseif('NewsMunch' == $desert_activated_theme->name || 'NewsTick' == $desert_activated_theme->name  || 'NewsAlert' == $desert_activated_theme->name):
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/newsmunch-pro/';
 		elseif('Atuxa' == $desert_activated_theme->name):
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/atuxa-pro/';
