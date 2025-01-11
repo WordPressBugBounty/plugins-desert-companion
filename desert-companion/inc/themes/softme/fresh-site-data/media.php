@@ -14,6 +14,8 @@ $site_logo = desert_companion_plugin_dir .'inc/themes/easytech/assets/images/log
 $site_logo = desert_companion_plugin_dir .'inc/themes/truesoft/assets/images/logo.png';
 }elseif ( 'SoftMunch' == $desert_activated_theme->name){
 $site_logo = desert_companion_plugin_dir .'inc/themes/softmunch/assets/images/logo.png';
+}elseif ( 'SoftAlt' == $desert_activated_theme->name){
+$site_logo = desert_companion_plugin_dir .'inc/themes/softalt/assets/images/logo.png';
 }else{
 $site_logo = desert_companion_plugin_dir .'inc/themes/softme/assets/images/logo.png';	
 }	

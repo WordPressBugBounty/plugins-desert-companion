@@ -581,7 +581,7 @@ if($softme_hs_hdr == '1') {
 						<?php  do_action('softme_header_address'); ?>
 						<?php  
 							$desert_activated_theme = wp_get_theme(); // gets the current theme
-							if('Softinn' !== $desert_activated_theme->name){ do_action('softme_site_social'); } 
+							if('Softinn' !== $desert_activated_theme->name && 'SoftAlt' !== $desert_activated_theme->name){ do_action('softme_site_social'); } 
 						?>
 					</div>
 				</div>

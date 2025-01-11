@@ -663,7 +663,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	);	
 
 	$desert_activated_theme = wp_get_theme(); // gets the current theme
-	if('Softinn' == $desert_activated_theme->name || 'CozySoft' == $desert_activated_theme->name || 'Suntech' == $desert_activated_theme->name){
+	if('Softinn' == $desert_activated_theme->name || 'CozySoft' == $desert_activated_theme->name || 'Suntech' == $desert_activated_theme->name  || 'SoftAlt' == $desert_activated_theme->name){
 	/*=========================================
 	Header Contact
 	=========================================*/	
@@ -768,7 +768,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	}	
 	
 	
-if('CozySoft' == $desert_activated_theme->name || 'Suntech' == $desert_activated_theme->name){
+if('CozySoft' == $desert_activated_theme->name || 'Suntech' == $desert_activated_theme->name || 'SoftAlt' == $desert_activated_theme->name){
 	/*=========================================
 	Header Contact
 	=========================================*/	
