@@ -22,6 +22,8 @@ $site_logo = desert_companion_plugin_dir .'inc/themes/auru/assets/images/logo.pn
 $site_logo = desert_companion_plugin_dir .'inc/themes/aahana/assets/images/logo.png';
 }elseif ( 'Crombit' == $desert_activated_theme->name){
 $site_logo = desert_companion_plugin_dir .'inc/themes/crombit/assets/images/logo.png';
+}elseif ( 'Arvita' == $desert_activated_theme->name){
+$site_logo = desert_companion_plugin_dir .'inc/themes/arvita/assets/images/logo.png';
 }else{
 $site_logo = desert_companion_plugin_dir .'inc/themes/cosmobit/assets/images/logo.png';	
 }

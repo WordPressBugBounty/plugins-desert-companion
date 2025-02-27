@@ -16,7 +16,7 @@ class Desert_Companion_Activator {
         $item_details_page = get_option('item_details_page'); 
 		$desert_activated_theme = wp_get_theme(); // gets the current theme
 		if(!$item_details_page){
-			if ( 'Cosmobit' == $desert_activated_theme->name || 'Cosmobit Child' == $desert_activated_theme->name || 'Celexo' == $desert_activated_theme->name  || 'Chitvi' == $desert_activated_theme->name  || 'Flexora' == $desert_activated_theme->name  || 'Thinity' == $desert_activated_theme->name  || 'EasyWiz' == $desert_activated_theme->name  || 'LazyPress' == $desert_activated_theme->name  || 'Fastica' == $desert_activated_theme->name || 'Arvana' == $desert_activated_theme->name  || 'Auru' == $desert_activated_theme->name  || 'Aahana' == $desert_activated_theme->name  || 'Crombit' == $desert_activated_theme->name){
+			if ( 'Cosmobit' == $desert_activated_theme->name || 'Cosmobit Child' == $desert_activated_theme->name || 'Celexo' == $desert_activated_theme->name  || 'Chitvi' == $desert_activated_theme->name  || 'Flexora' == $desert_activated_theme->name  || 'Thinity' == $desert_activated_theme->name  || 'EasyWiz' == $desert_activated_theme->name  || 'LazyPress' == $desert_activated_theme->name  || 'Fastica' == $desert_activated_theme->name || 'Arvana' == $desert_activated_theme->name  || 'Auru' == $desert_activated_theme->name  || 'Aahana' == $desert_activated_theme->name  || 'Crombit' == $desert_activated_theme->name  || 'Arvita' == $desert_activated_theme->name){
 				 require desert_companion_plugin_dir .'inc/themes/cosmobit/fresh-site-data/media.php';
 				require desert_companion_plugin_dir .'inc/themes/cosmobit/fresh-site-data/widget.php';
 				

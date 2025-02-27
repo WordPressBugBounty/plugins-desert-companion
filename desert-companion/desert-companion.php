@@ -3,7 +3,7 @@
 * Plugin Name:       	Desert Companion
 * Plugin URI:        	
 * Description:       	Desert Companion Enhances Desert Themes with additional functionality.
-* Version:           	1.0.79
+* Version:           	1.0.80
 * Author: 				Desertthemes
 * Author URI: 			http://desertthemes.com/
 * Tested up to: 		6.7
@@ -199,6 +199,11 @@ if( !function_exists('desert_companion_init') ){
 		// SoftAlt Theme
 		if( 'SoftAlt' == $desert_activated_theme->name){
 			require desert_companion_plugin_dir . 'inc/themes/softalt/softalt.php';
+		}
+		
+		// Arvita Theme
+		if( 'Arvita' == $desert_activated_theme->name){
+			require desert_companion_plugin_dir . 'inc/themes/arvita/arvita.php';
 		}
 	}
 	add_action( 'init', 'desert_companion_init' );
