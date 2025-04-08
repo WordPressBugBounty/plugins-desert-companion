@@ -20,6 +20,8 @@ $site_logo = desert_companion_plugin_dir .'inc/themes/atuxa/assets/images/logo.p
 $site_logo = desert_companion_plugin_dir .'inc/themes/atuvi/assets/images/logo.png';
 }elseif ( 'Flexina' == $desert_activated_theme->name){
 $site_logo = desert_companion_plugin_dir .'inc/themes/flexina/assets/images/logo.png';
+}elseif ( 'Flexiva' == $desert_activated_theme->name){
+$site_logo = desert_companion_plugin_dir .'inc/themes/flexiva/assets/images/logo.png';
 }else{
 $site_logo = desert_companion_plugin_dir .'inc/themes/atua/assets/images/logo.png';
 }

@@ -3,7 +3,7 @@
 * Plugin Name:       	Desert Companion
 * Plugin URI:        	
 * Description:       	Desert Companion Enhances Desert Themes with additional functionality.
-* Version:           	1.0.81
+* Version:           	1.0.82
 * Author: 				Desertthemes
 * Author URI: 			http://desertthemes.com/
 * Tested up to: 		6.7
@@ -204,6 +204,11 @@ if( !function_exists('desert_companion_init') ){
 		// Arvita Theme
 		if( 'Arvita' == $desert_activated_theme->name){
 			require desert_companion_plugin_dir . 'inc/themes/arvita/arvita.php';
+		}
+		
+		// Flexiva Theme
+		if( 'Flexiva' == $desert_activated_theme->name){
+			require desert_companion_plugin_dir . 'inc/themes/flexiva/flexiva.php';
 		}
 	}
 	add_action( 'init', 'desert_companion_init' );
