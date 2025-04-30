@@ -3,10 +3,10 @@
 * Plugin Name:       	Desert Companion
 * Plugin URI:        	
 * Description:       	Desert Companion Enhances Desert Themes with additional functionality.
-* Version:           	1.0.82
+* Version:           	1.0.83
 * Author: 				Desertthemes
 * Author URI: 			http://desertthemes.com/
-* Tested up to: 		6.7
+* Tested up to: 		6.8
 * Requires: 			4.6 or higher
 * License: 				GPLv3 or later
 * License URI: 			http://www.gnu.org/licenses/gpl-3.0.html
@@ -209,6 +209,11 @@ if( !function_exists('desert_companion_init') ){
 		// Flexiva Theme
 		if( 'Flexiva' == $desert_activated_theme->name){
 			require desert_companion_plugin_dir . 'inc/themes/flexiva/flexiva.php';
+		}
+		
+		// Advancea Theme
+		if( 'Advancea' == $desert_activated_theme->name){
+			require desert_companion_plugin_dir . 'inc/themes/advancea/advancea.php';
 		}
 	}
 	add_action( 'init', 'desert_companion_init' );

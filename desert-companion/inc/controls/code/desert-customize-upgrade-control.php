@@ -116,7 +116,9 @@ class Desert_Companion_Customize_Upgrade_Control extends WP_Customize_Control {
 		elseif('Arvita' == $desert_activated_theme->name):
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/arvita-pro/';	
 		elseif('Flexiva' == $desert_activated_theme->name):
-			$upgrade_to_pro_link = 'https://desertthemes.com/themes/flexiva-pro/';		
+			$upgrade_to_pro_link = 'https://desertthemes.com/themes/flexiva-pro/';	
+		elseif('Advancea' == $desert_activated_theme->name):
+			$upgrade_to_pro_link = 'https://desertthemes.com/themes/advancea-pro/';	
 		else:
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/cosmobit-pro/';
 		endif;	
