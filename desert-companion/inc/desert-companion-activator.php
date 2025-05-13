@@ -26,7 +26,7 @@ class Desert_Companion_Activator {
 			}elseif('SoftMe' == $desert_activated_theme->name || 'Softinn' == $desert_activated_theme->name || 'CozySoft' == $desert_activated_theme->name || 'CareSoft' == $desert_activated_theme->name || 'Suntech' == $desert_activated_theme->name  || 'EasyTech' == $desert_activated_theme->name  || 'TrueSoft' == $desert_activated_theme->name  || 'SoftMunch' == $desert_activated_theme->name  || 'SoftAlt' == $desert_activated_theme->name){
 				 require desert_companion_plugin_dir .'inc/themes/softme/fresh-site-data/media.php';
 				 require desert_companion_plugin_dir .'inc/themes/softme/fresh-site-data/widget.php';
-			}elseif('Corpiva' == $desert_activated_theme->name  || 'Corvita' == $desert_activated_theme->name  || 'Corvia' == $desert_activated_theme->name  || 'Advancea' == $desert_activated_theme->name){
+			}elseif('Corpiva' == $desert_activated_theme->name  || 'Corvita' == $desert_activated_theme->name  || 'Corvia' == $desert_activated_theme->name  || 'Advancea' == $desert_activated_theme->name  || 'Avanta' == $desert_activated_theme->name){
 				 require desert_companion_plugin_dir .'inc/themes/corpiva/fresh-site-data/media.php';
 				 require desert_companion_plugin_dir .'inc/themes/corpiva/fresh-site-data/widget.php';
 			}

@@ -6,6 +6,8 @@ $site_logo = desert_companion_plugin_dir .'inc/themes/corvita/assets/images/logo
 $site_logo = desert_companion_plugin_dir .'inc/themes/corvia/assets/images/logo.png';
 }elseif ( 'Advancea' == $desert_activated_theme->name){
 $site_logo = desert_companion_plugin_dir .'inc/themes/advancea/assets/images/logo.png';
+}elseif ( 'Avanta' == $desert_activated_theme->name){
+$site_logo = desert_companion_plugin_dir .'inc/themes/avanta/assets/images/logo.png';
 }else{
 $site_logo = desert_companion_plugin_dir .'inc/themes/corpiva/assets/images/logo.png';
 }

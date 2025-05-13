@@ -3,7 +3,7 @@
 * Plugin Name:       	Desert Companion
 * Plugin URI:        	
 * Description:       	Desert Companion Enhances Desert Themes with additional functionality.
-* Version:           	1.0.83
+* Version:           	1.0.84
 * Author: 				Desertthemes
 * Author URI: 			http://desertthemes.com/
 * Tested up to: 		6.8
@@ -214,6 +214,11 @@ if( !function_exists('desert_companion_init') ){
 		// Advancea Theme
 		if( 'Advancea' == $desert_activated_theme->name){
 			require desert_companion_plugin_dir . 'inc/themes/advancea/advancea.php';
+		}
+		
+		// Avanta Theme
+		if( 'Avanta' == $desert_activated_theme->name){
+			require desert_companion_plugin_dir . 'inc/themes/avanta/avanta.php';
 		}
 	}
 	add_action( 'init', 'desert_companion_init' );
