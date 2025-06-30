@@ -121,6 +121,8 @@ class Desert_Companion_Customize_Upgrade_Control extends WP_Customize_Control {
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/advancea-pro/';	
 		elseif('Avanta' == $desert_activated_theme->name):
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/avanta-pro/';
+		elseif('Corvine' == $desert_activated_theme->name):
+			$upgrade_to_pro_link = 'https://desertthemes.com/themes/corvine-pro/';	
 		else:
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/cosmobit-pro/';
 		endif;	
