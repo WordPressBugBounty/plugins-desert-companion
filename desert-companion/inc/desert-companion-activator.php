@@ -29,7 +29,7 @@ class Desert_Companion_Activator {
 			}elseif('Corpiva' == $desert_activated_theme->name  || 'Corvita' == $desert_activated_theme->name  || 'Corvia' == $desert_activated_theme->name  || 'Advancea' == $desert_activated_theme->name  || 'Avanta' == $desert_activated_theme->name  || 'Corvine' == $desert_activated_theme->name){
 				 require desert_companion_plugin_dir .'inc/themes/corpiva/fresh-site-data/media.php';
 				 require desert_companion_plugin_dir .'inc/themes/corpiva/fresh-site-data/widget.php';
-			}elseif('Chromax' == $desert_activated_theme->name){
+			}elseif('Chromax' == $desert_activated_theme->name  ||  'Chrowix' == $desert_activated_theme->name){
 				 require desert_companion_plugin_dir .'inc/themes/chromax/fresh-site-data/media.php';
 				 require desert_companion_plugin_dir .'inc/themes/chromax/fresh-site-data/widget.php';
 			}

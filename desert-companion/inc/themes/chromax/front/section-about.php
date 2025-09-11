@@ -12,7 +12,7 @@ if($chromax_about_options_hide_show=='1'):
 <section id="dt_about" class="dt_about dt_about--one dt-py-default front-about">
 	<div class="bg-shape-image" data-background="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/pattern-1.png"></div>
 	<div class="dt-container">
-		<div class="dt-row justify-content-center">
+		<div class="dt-row dt-g-4 justify-content-center">
 			<div class="dt-col-lg-<?php if(!empty($chromax_about_right_content)):  esc_attr_e('6','chromax'); else: esc_attr_e('12','chromax'); endif; ?> dt-col-sm-12 dt-col-12">
 				<div class="section-title dt-mb-6">
 					<?php if(!empty($chromax_about_left_ttl)): ?>

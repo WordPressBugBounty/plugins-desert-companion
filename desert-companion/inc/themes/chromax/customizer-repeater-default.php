@@ -127,7 +127,42 @@ if ( ! function_exists( 'chromax_service_option_after' ) ) {
  *
  * Chromax Service Default
  */
+$desert_activated_theme = wp_get_theme(); // gets the current theme
+if ( 'Chrowix' == $desert_activated_theme->name){
  function chromax_service_options_default() {
+	return apply_filters(
+		'chromax_service_options_default', json_encode(
+				 array(
+				array(
+					'image_url'       => esc_url(desert_companion_plugin_url . '/inc/themes/chromax/assets/images/services01.jpg'),
+					'icon_value'       => 'fas fa-compass',
+					'title'           => esc_html__( 'Tech Innovation', 'chromax' ),
+					'text'	  =>  esc_html__( 'We are web designers, developers, project managers.', 'chromax' ),
+					'link'            => '#',
+					'id'              => 'chromax_customizer_repeater_service_001'					
+				),
+				array(
+					'image_url'       => esc_url(desert_companion_plugin_url . '/inc/themes/chromax/assets/images/services02.jpg'),
+					'icon_value'       => 'fas fa-users',
+					'title'           => esc_html__( 'Market Analysis', 'chromax' ),
+					'text'	  =>  esc_html__( 'We are web designers, developers, project managers.', 'chromax' ),
+					'link'            => '#',
+					'id'              => 'chromax_customizer_repeater_service_002'
+				),
+				array(
+					'image_url'       => esc_url(desert_companion_plugin_url . '/inc/themes/chromax/assets/images/services03.jpg'),
+					'icon_value'       => 'fas fa-life-ring',
+					'title'           => esc_html__( 'Web & App Design', 'chromax' ),
+					'text'	  =>  esc_html__( 'We are web designers, developers, project managers.', 'chromax' ),
+					'link'            => '#',
+					'id'              => 'chromax_customizer_repeater_service_003'
+				)
+			)
+		)
+	);
+}
+}else{
+	function chromax_service_options_default() {
 	return apply_filters(
 		'chromax_service_options_default', json_encode(
 				 array(
@@ -175,7 +210,7 @@ if ( ! function_exists( 'chromax_service_option_after' ) ) {
 		)
 	);
 }
-
+}
 /*
  *
  * Chromax Why Choose Default
