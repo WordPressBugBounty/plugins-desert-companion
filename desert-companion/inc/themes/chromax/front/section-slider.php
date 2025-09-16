@@ -22,13 +22,15 @@ if($chromax_slider_options_hide_show=='1'):
 		<?php
 			if ( ! empty( $chromax_slider_option ) ) {
 				$allowed_html = array(
-						'br'     => array(),
-						'em'     => array(),
-						'strong' => array(),
-						'span' => array(),
-						'b'      => array(),
-						'i'      => array(),
-						);
+					'br'     => array(),
+					'em'     => array(),
+					'strong' => array(),
+					'span'   => array(
+						'class' => array()
+					),
+					'b'      => array(),
+					'i'      => array(),
+				);
 			$chromax_slider_option = json_decode( $chromax_slider_option );
 			foreach ( $chromax_slider_option as $item ) {
 				$title = ! empty( $item->title ) ? apply_filters( 'chromax_translate_single_string', $item->title, 'slider section' ) : '';

@@ -46,7 +46,7 @@ if ( ! function_exists( 'chromax_service_option_after' ) ) {
 				array(
 					'image_url'       => esc_url(desert_companion_plugin_url . '/inc/themes/chromax/assets/images/slider01.jpg'),
 					'title'           => esc_html__( 'Welcome to IT Solutions !', 'chromax' ),
-					'subtitle'         => esc_html__( 'Affordable Big IT & Technology Solutions', 'chromax' ),
+					'subtitle'         => esc_html__( "Affordable Big IT & Technology <span class='text-primary'>Solutions</span>", 'chromax' ),
 					'text'            => esc_html__( 'The goal of IT services is to provide efficient and effective technology solutions that help businesses achieve their objectives.', 'chromax' ),
 					'text2'	  =>  esc_html__( 'Get Started', 'chromax' ),
 					'link'	  =>  esc_html__( '#', 'chromax' ),
@@ -56,7 +56,7 @@ if ( ! function_exists( 'chromax_service_option_after' ) ) {
 				array(
 					'image_url'       => esc_url(desert_companion_plugin_url . '/inc/themes/chromax/assets/images/slider02.jpg'),
 					'title'           => esc_html__( 'We’re 100% Trusted Agency', 'chromax' ),
-					'subtitle'         => esc_html__( 'Bridging the Gap in Your IT Solutions', 'chromax' ),
+					'subtitle'         => esc_html__( "Bridging the Gap in Your IT <span class='text-primary'>Solutions</span>", 'chromax' ),
 					'text'            => esc_html__( 'The goal of IT services is to provide efficient and effective technology solutions that help businesses achieve their objectives.', 'chromax' ),
 					'text2'	  =>  esc_html__( 'Get Started', 'chromax' ),
 					'link'	  =>  esc_html__( '#', 'chromax' ),
@@ -66,7 +66,7 @@ if ( ! function_exists( 'chromax_service_option_after' ) ) {
 				array(
 					'image_url'       => esc_url(desert_companion_plugin_url . '/inc/themes/chromax/assets/images/slider03.jpg'),
 					'title'           => esc_html__( 'Experience the best IT Solution', 'chromax' ),
-					'subtitle'         => esc_html__( 'Affordable Big IT & Technology Solutions', 'chromax' ),
+					'subtitle'         => esc_html__( "Affordable Big IT & Technology <span class='text-primary'>Solutions</span>", 'chromax' ),
 					'text'            => esc_html__( 'The goal of IT services is to provide efficient and effective technology solutions that help businesses achieve their objectives.', 'chromax' ),
 					'text2'	  =>  esc_html__( 'Get Started', 'chromax' ),
 					'link'	  =>  esc_html__( '#', 'chromax' ),
@@ -82,6 +82,8 @@ if ( ! function_exists( 'chromax_service_option_after' ) ) {
  *
  * Chromax Information Default
  */
+$desert_activated_theme = wp_get_theme(); // gets the current theme
+if ( 'Chrowix' == $desert_activated_theme->name){ 
  function chromax_information_options_default() {
 	return apply_filters(
 		'chromax_information_options_default', json_encode(
@@ -122,7 +124,44 @@ if ( ! function_exists( 'chromax_service_option_after' ) ) {
 		)
 	);
 }
-
+}else{
+	function chromax_information_options_default() {
+	return apply_filters(
+		'chromax_information_options_default', json_encode(
+				 array(
+				array(
+					'icon_value'       => 'fas fa-compass',
+					'title'           => esc_html__( 'Tech Innovation', 'chromax' ),
+					'text'	  =>  esc_html__( 'Developing a comprehensive IT strategy that aligns.', 'chromax' ),
+					'link'            => '#',
+					'id'              => 'chromax_customizer_repeater_information_001'					
+				),
+				array(
+					'icon_value'       => 'fas fa-users',
+					'title'           => esc_html__( 'Market Analysis', 'chromax' ),
+					'text'	  =>  esc_html__( 'Developing a comprehensive IT strategy that aligns.', 'chromax' ),
+					'link'            => '#',
+					'id'              => 'chromax_customizer_repeater_information_002'
+				),
+				array(
+					'icon_value'       => 'fas fa-life-ring',
+					'title'           => esc_html__( 'Web & App Design', 'chromax' ),
+					'text'	  =>  esc_html__( 'Developing a comprehensive IT strategy that aligns.', 'chromax' ),
+					'link'            => '#',
+					'id'              => 'chromax_customizer_repeater_information_003'
+				),
+				array(
+					'icon_value'       => 'fas fa-chart-pie',
+					'title'           => esc_html__( 'Data Security', 'chromax' ),
+					'text'	  =>  esc_html__( 'Developing a comprehensive IT strategy that aligns.', 'chromax' ),
+					'link'            => '#',
+					'id'              => 'chromax_customizer_repeater_information_004'	
+				)
+			)
+		)
+	);
+}
+}
 /*
  *
  * Chromax Service Default

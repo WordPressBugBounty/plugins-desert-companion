@@ -50,7 +50,9 @@ if($chromax_information_options_hide_show=='1'):
 							<?php endif; ?>
 						</div>
 						<?php if ( ! empty( $image ) ) : ?>
-							<div class="item-image"><img src="<?php echo esc_url($image); ?>" alt=""></div>
+							<div class="item-image is-image"><img src="<?php echo esc_url($image); ?>" alt=""></div>
+						<?php else: ?>	
+							<div class="item-image"></div>
 						<?php endif; ?>
 					</div>
 				</div>

@@ -3,7 +3,7 @@
 * Plugin Name:       	Desert Companion
 * Plugin URI:        	
 * Description:       	Desert Companion Enhances Desert Themes with additional functionality.
-* Version:           	1.0.88
+* Version:           	1.0.89
 * Author: 				Desertthemes
 * Author URI: 			http://desertthemes.com/
 * Tested up to: 		6.8
@@ -234,6 +234,11 @@ if( !function_exists('desert_companion_init') ){
 		// Chrowix Theme
 		if( 'Chrowix' == $desert_activated_theme->name){
 			require desert_companion_plugin_dir . 'inc/themes/chrowix/chrowix.php';
+		}
+		
+		// Chromica Theme
+		if( 'Chromica' == $desert_activated_theme->name){
+			require desert_companion_plugin_dir . 'inc/themes/chromica/chromica.php';
 		}
 	}
 	add_action( 'init', 'desert_companion_init' );
