@@ -6,7 +6,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	=========================================*/
 	$wp_customize->add_section(
 		'blog_options', array(
-			'title' => esc_html__( 'Blog Section', 'chromax' ),
+			'title' => esc_html__( 'Blog Section', 'desert-companion' ),
 			'priority' => 18,
 			'panel' => 'chromax_frontpage_options',
 		)
@@ -28,7 +28,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'blog_options_setting_head',
 		array(
 			'type' => 'hidden',
-			'label' => __('Blog Setting','chromax'),
+			'label' => __('Blog Setting','desert-companion'),
 			'section' => 'blog_options',
 		)
 	);
@@ -48,7 +48,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_blog_options_hide_show',
 		array(
 			'type' => 'checkbox',
-			'label' => __('Hide/Show Section','chromax'),
+			'label' => __('Hide/Show Section','desert-companion'),
 			'section' => 'blog_options',
 		)
 	);
@@ -69,7 +69,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_blog_header_options',
 		array(
 			'type' => 'hidden',
-			'label' => __('Header','chromax'),
+			'label' => __('Header','desert-companion'),
 			'section' => 'blog_options',
 		)
 	);
@@ -80,7 +80,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'chromax_blog_ttl',
     	array(
-	        'default'			=> __('Blog & News','chromax'),
+	        'default'			=> __('Blog & News','desert-companion'),
 			'capability'     	=> 'edit_theme_options',
 			'sanitize_callback' => 'chromax_sanitize_html',
 			'transport'         => $selective_refresh,
@@ -91,7 +91,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control( 
 		'chromax_blog_ttl',
 		array(
-		    'label'   => __('Title','chromax'),
+		    'label'   => __('Title','desert-companion'),
 		    'section' => 'blog_options',
 			'type'           => 'text',
 		)  
@@ -103,7 +103,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'chromax_blog_subttl',
     	array(
-	        'default'			=> __('Get Update Blog & News','chromax'),
+	        'default'			=> __('Get Update Blog & News','desert-companion'),
 			'capability'     	=> 'edit_theme_options',
 			'sanitize_callback' => 'chromax_sanitize_html',
 			'transport'         => $selective_refresh,
@@ -114,7 +114,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control( 
 		'chromax_blog_subttl',
 		array(
-		    'label'   => __('Subtitle','chromax'),
+		    'label'   => __('Subtitle','desert-companion'),
 		    'section' => 'blog_options',
 			'type'           => 'text',
 		)  
@@ -136,7 +136,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_blog_content_options',
 		array(
 			'type' => 'hidden',
-			'label' => __('Content','chromax'),
+			'label' => __('Content','desert-companion'),
 			'section' => 'blog_options',
 		)
 	);
@@ -151,7 +151,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control( new Chromax_Post_Category_Control( $wp_customize, 
 	'chromax_blog_cat', 
 		array(
-		'label'   => __('Select category for Blog','chromax'),
+		'label'   => __('Select category for Blog','desert-companion'),
 		'section' => 'blog_options',
 		) 
 	) );	
@@ -170,7 +170,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		$wp_customize->add_control( 
 		new Chromax_Customizer_Range_Control( $wp_customize, 'chromax_blog_num', 
 			array(
-				'label'      => __( 'Number of Blog Display', 'chromax' ),
+				'label'      => __( 'Number of Blog Display', 'desert-companion' ),
 				'section'  => 'blog_options',
 				 'media_query'   => false,
 					'input_attr'    => array(

@@ -7,13 +7,13 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_panel(
 		'chromax_frontpage_options', array(
 			'priority' => 32,
-			'title' => esc_html__( 'Theme Frontpage', 'chromax' ),
+			'title' => esc_html__( 'Theme Frontpage', 'desert-companion' ),
 		)
 	);
 	
 	$wp_customize->add_section(
 		'slider_options', array(
-			'title' => esc_html__( 'Slider Section', 'chromax' ),
+			'title' => esc_html__( 'Slider Section', 'desert-companion' ),
 			'panel' => 'chromax_frontpage_options',
 			'priority' => 1,
 		)
@@ -35,7 +35,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'slider_options_setting_head',
 		array(
 			'type' => 'hidden',
-			'label' => __('Slider Setting','chromax'),
+			'label' => __('Slider Setting','desert-companion'),
 			'section' => 'slider_options',
 		)
 	);
@@ -55,7 +55,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_slider_options_hide_show',
 		array(
 			'type' => 'checkbox',
-			'label' => __('Hide/Show Section','chromax'),
+			'label' => __('Hide/Show Section','desert-companion'),
 			'section' => 'slider_options',
 		)
 	);
@@ -76,7 +76,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'slider_options_head',
 		array(
 			'type' => 'hidden',
-			'label' => __('Slider Contents','chromax'),
+			'label' => __('Slider Contents','desert-companion'),
 			'section' => 'slider_options',
 		)
 	);
@@ -94,10 +94,10 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			new Chromax_Repeater( $wp_customize, 
 				'chromax_slider_option', 
 					array(
-						'label'   => esc_html__('Slide','chromax'),
+						'label'   => esc_html__('Slide','desert-companion'),
 						'section' => 'slider_options',
-						'add_field_label'                   => esc_html__( 'Add New Slider', 'chromax' ),
-						'item_name'                         => esc_html__( 'Slider', 'chromax' ),
+						'add_field_label'                   => esc_html__( 'Add New Slider', 'desert-companion' ),
+						'item_name'                         => esc_html__( 'Slider', 'desert-companion' ),
 						
 						'customizer_repeater_title_control' => true,
 						'customizer_repeater_subtitle_control' => true,
@@ -144,7 +144,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		$wp_customize->add_control( 
 		new Chromax_Customizer_Range_Control( $wp_customize, 'chromax_slider_opacity', 
 			array(
-				'label'      => __( 'opacity', 'chromax' ),
+				'label'      => __( 'opacity', 'desert-companion' ),
 				'section'  => 'slider_options',
 				 'media_query'   => false,
 					'input_attr'    => array(
@@ -174,7 +174,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		($wp_customize, 
 			'chromax_slider_overlay', 
 			array(
-				'label'      => __( 'Overlay Color', 'chromax' ),
+				'label'      => __( 'Overlay Color', 'desert-companion' ),
 				'section'    => 'slider_options'
 			) 
 		) 

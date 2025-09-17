@@ -28,7 +28,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'why_choose_options_setting_head',
 		array(
 			'type' => 'hidden',
-			'label' => __('Why Choose Setting','chromax'),
+			'label' => __('Why Choose Setting','desert-companion'),
 			'section' => 'why_choose_options',
 		)
 	);
@@ -48,7 +48,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_why_choose_options_hide_show',
 		array(
 			'type' => 'checkbox',
-			'label' => __('Hide/Show Section','chromax'),
+			'label' => __('Hide/Show Section','desert-companion'),
 			'section' => 'why_choose_options',
 		)
 	);

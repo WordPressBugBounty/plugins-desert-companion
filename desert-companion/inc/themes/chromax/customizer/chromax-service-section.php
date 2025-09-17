@@ -6,7 +6,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	=========================================*/
 	$wp_customize->add_section(
 		'service_options', array(
-			'title' => esc_html__( 'Service Section', 'chromax' ),
+			'title' => esc_html__( 'Service Section', 'desert-companion' ),
 			'priority' => 4,
 			'panel' => 'chromax_frontpage_options',
 		)
@@ -28,7 +28,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'service_options_setting_head',
 		array(
 			'type' => 'hidden',
-			'label' => __('Service Setting','chromax'),
+			'label' => __('Service Setting','desert-companion'),
 			'section' => 'service_options',
 		)
 	);
@@ -48,7 +48,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_service_options_hide_show',
 		array(
 			'type' => 'checkbox',
-			'label' => __('Hide/Show Section','chromax'),
+			'label' => __('Hide/Show Section','desert-companion'),
 			'section' => 'service_options',
 		)
 	);
@@ -69,7 +69,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_service_header_options',
 		array(
 			'type' => 'hidden',
-			'label' => __('Header','chromax'),
+			'label' => __('Header','desert-companion'),
 			'section' => 'service_options',
 		)
 	);
@@ -80,7 +80,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'chromax_service_ttl',
     	array(
-	        'default'			=> __('Empowering','chromax'),
+	        'default'			=> __('Empowering','desert-companion'),
 			'capability'     	=> 'edit_theme_options',
 			'sanitize_callback' => 'chromax_sanitize_html',
 			'transport'         => $selective_refresh,
@@ -91,7 +91,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control( 
 		'chromax_service_ttl',
 		array(
-		    'label'   => __('Title','chromax'),
+		    'label'   => __('Title','desert-companion'),
 		    'section' => 'service_options',
 			'type'           => 'text',
 		)  
@@ -103,7 +103,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'chromax_service_subttl',
     	array(
-	        'default'			=> __('Your Business Growth Through IT Solutions.','chromax'),
+	        'default'			=> __('Your Business Growth Through IT Solutions.','desert-companion'),
 			'capability'     	=> 'edit_theme_options',
 			'sanitize_callback' => 'chromax_sanitize_html',
 			'transport'         => $selective_refresh,
@@ -114,7 +114,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control( 
 		'chromax_service_subttl',
 		array(
-		    'label'   => __('Subtitle','chromax'),
+		    'label'   => __('Subtitle','desert-companion'),
 		    'section' => 'service_options',
 			'type'           => 'text',
 		)  
@@ -136,7 +136,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_service_content_options',
 		array(
 			'type' => 'hidden',
-			'label' => __('Content','chromax'),
+			'label' => __('Content','desert-companion'),
 			'section' => 'service_options',
 		)
 	);
@@ -154,10 +154,10 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			new Chromax_Repeater( $wp_customize, 
 				'chromax_service_option', 
 					array(
-						'label'   => esc_html__('Service','chromax'),
+						'label'   => esc_html__('Service','desert-companion'),
 						'section' => 'service_options',
-						'add_field_label'                   => esc_html__( 'Add New Service', 'chromax' ),
-						'item_name'                         => esc_html__( 'Service', 'chromax' ),
+						'add_field_label'                   => esc_html__( 'Add New Service', 'desert-companion' ),
+						'item_name'                         => esc_html__( 'Service', 'desert-companion' ),
 						
 						'customizer_repeater_title_control' => true,
 						'customizer_repeater_text_control' => true,
@@ -192,7 +192,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'chromax_service_text',
     	array(
-	        'default'			=> __('Ever find yourself staring at your computer screen a good consulting slogan to come to mind? Oftentimes.','chromax'),
+	        'default'			=> __('Ever find yourself staring at your computer screen a good consulting slogan to come to mind? Oftentimes.','desert-companion'),
 			'capability'     	=> 'edit_theme_options',
 			'sanitize_callback' => 'chromax_sanitize_html',
 			'transport'         => $selective_refresh,
@@ -203,7 +203,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control( 
 		'chromax_service_text',
 		array(
-		    'label'   => __('Description','chromax'),
+		    'label'   => __('Description','desert-companion'),
 		    'section' => 'service_options',
 			'type'           => 'textarea',
 		)  
@@ -213,7 +213,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'chromax_service_btn_lbl',
     	array(
-	        'default'			=> __('See All Service','chromax'),
+	        'default'			=> __('See All Service','desert-companion'),
 			'capability'     	=> 'edit_theme_options',
 			'sanitize_callback' => 'chromax_sanitize_html',
 			'transport'         => $selective_refresh,
@@ -224,7 +224,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control( 
 		'chromax_service_btn_lbl',
 		array(
-		    'label'   => __('Button Label','chromax'),
+		    'label'   => __('Button Label','desert-companion'),
 		    'section' => 'service_options',
 			'type'           => 'text',
 		)  
@@ -244,7 +244,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control( 
 		'chromax_service_btn_url',
 		array(
-		    'label'   => __('Button Link','chromax'),
+		    'label'   => __('Button Link','desert-companion'),
 		    'section' => 'service_options',
 			'type'           => 'text',
 		)  
@@ -266,7 +266,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_service_option_before_after',
 		array(
 			'type' => 'hidden',
-			'label' => __('Before / After Content','chromax'),
+			'label' => __('Before / After Content','desert-companion'),
 			'section' => 'service_options',
 		)
 	);
@@ -287,7 +287,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		array(
 			'type'	=> 'dropdown-pages',
 			'allow_addition' => true,
-			'label'	=> __('Select Page For Before Section','chromax'),
+			'label'	=> __('Select Page For Before Section','desert-companion'),
 			'section'	=> 'service_options',
 		)
 	);	
@@ -308,7 +308,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		array(
 			'type'	=> 'dropdown-pages',
 			'allow_addition' => true,
-			'label'	=> __('Select Page For After Section','chromax'),
+			'label'	=> __('Select Page For After Section','desert-companion'),
 			'section'	=> 'service_options',
 		)
 	);

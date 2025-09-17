@@ -3,7 +3,7 @@ $chromax_slider_options_hide_show  		= get_theme_mod('chromax_slider_options_hid
 $chromax_slider_option 		= get_theme_mod('chromax_slider_option',chromax_slider_options_default());
 if($chromax_slider_options_hide_show=='1'):	
 ?>
-<section id="dt_slider" class="dt_slider dt_slider--thumbnav dt_slider--two" role="banner" aria-label="<?php esc_attr_e('Main Promotional Banner','chromax'); ?>">
+<section id="dt_slider" class="dt_slider dt_slider--thumbnav dt_slider--two" role="banner" aria-label="<?php esc_attr_e('Main Promotional Banner','desert-companion'); ?>">
 	<div class="dt_owl_carousel owl-theme owl-carousel slider" data-owl-options='{
 		"loop": true,
 		"items": 1,
@@ -57,7 +57,7 @@ if($chromax_slider_options_hide_show=='1'):
 											<?php endif; ?>	
 											
 											<?php if ( ! empty( $subtitle ) ) : ?>
-												<h2 class="title animate-title" data-text="<?php echo wp_kses( html_entity_decode( $subtitle ), $allowed_html ); ?>"></h2>
+												<h2 class="title animate-title" data-text="<?php echo esc_attr(wp_kses( html_entity_decode( $subtitle ), $allowed_html )); ?>"></h2>
 											<?php endif; ?>	
 											
 											<?php if ( ! empty( $text ) ) : ?>

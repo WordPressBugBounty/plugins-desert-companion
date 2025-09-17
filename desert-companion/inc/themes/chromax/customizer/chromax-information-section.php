@@ -6,7 +6,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	=========================================*/
 	$wp_customize->add_section(
 		'information_options', array(
-			'title' => esc_html__( 'Information Section', 'chromax' ),
+			'title' => esc_html__( 'Information Section', 'desert-companion' ),
 			'panel' => 'chromax_frontpage_options',
 			'priority' => 2,
 		)
@@ -28,7 +28,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'information_options_setting_head',
 		array(
 			'type' => 'hidden',
-			'label' => __('Information Setting','chromax'),
+			'label' => __('Information Setting','desert-companion'),
 			'section' => 'information_options',
 		)
 	);
@@ -48,7 +48,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_information_options_hide_show',
 		array(
 			'type' => 'checkbox',
-			'label' => __('Hide/Show Section','chromax'),
+			'label' => __('Hide/Show Section','desert-companion'),
 			'section' => 'information_options',
 		)
 	);
@@ -69,7 +69,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'information_options_head',
 		array(
 			'type' => 'hidden',
-			'label' => __('Information Contents','chromax'),
+			'label' => __('Information Contents','desert-companion'),
 			'section' => 'information_options',
 		)
 	);
@@ -87,10 +87,10 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			new Chromax_Repeater( $wp_customize, 
 				'chromax_information_option', 
 					array(
-						'label'   => esc_html__('Information','chromax'),
+						'label'   => esc_html__('Information','desert-companion'),
 						'section' => 'information_options',
-						'add_field_label'                   => esc_html__( 'Add New Information', 'chromax' ),
-						'item_name'                         => esc_html__( 'Information', 'chromax' ),
+						'add_field_label'                   => esc_html__( 'Add New Information', 'desert-companion' ),
+						'item_name'                         => esc_html__( 'Information', 'desert-companion' ),
 						
 						'customizer_repeater_image_control' => true,
 						'customizer_repeater_title_control' => true,

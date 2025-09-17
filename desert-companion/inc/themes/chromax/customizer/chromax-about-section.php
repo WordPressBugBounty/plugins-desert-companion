@@ -6,7 +6,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	=========================================*/
 	$wp_customize->add_section(
 		'about_options', array(
-			'title' => esc_html__( 'About Section', 'chromax' ),
+			'title' => esc_html__( 'About Section', 'desert-companion' ),
 			'priority' => 3,
 			'panel' => 'chromax_frontpage_options',
 		)
@@ -28,7 +28,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'about_options_setting_head',
 		array(
 			'type' => 'hidden',
-			'label' => __('About Setting','chromax'),
+			'label' => __('About Setting','desert-companion'),
 			'section' => 'about_options',
 		)
 	);
@@ -48,7 +48,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_about_options_hide_show',
 		array(
 			'type' => 'checkbox',
-			'label' => __('Hide/Show Section','chromax'),
+			'label' => __('Hide/Show Section','desert-companion'),
 			'section' => 'about_options',
 		)
 	);
@@ -69,7 +69,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_about_left_options',
 		array(
 			'type' => 'hidden',
-			'label' => __('Left Content','chromax'),
+			'label' => __('Left Content','desert-companion'),
 			'section' => 'about_options',
 		)
 	);
@@ -78,7 +78,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'chromax_about_left_ttl',
     	array(
-	        'default'			=> __('About us our company','chromax'),
+	        'default'			=> __('About us our company','desert-companion'),
 			'capability'     	=> 'edit_theme_options',
 			'sanitize_callback' => 'chromax_sanitize_html',
 			'transport'         => $selective_refresh,
@@ -89,7 +89,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control( 
 		'chromax_about_left_ttl',
 		array(
-		    'label'   => __('Title','chromax'),
+		    'label'   => __('Title','desert-companion'),
 		    'section' => 'about_options',
 			'type'           => 'text',
 		)  
@@ -99,7 +99,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'chromax_about_left_subttl',
     	array(
-	        'default'			=> __('Smart & Cost-Efficient <i>Portals</i> with <span>Cutting-Edge</span> Tech','chromax'),
+	        'default'			=> __('Smart & Cost-Efficient <i>Portals</i> with <span>Cutting-Edge</span> Tech','desert-companion'),
 			'capability'     	=> 'edit_theme_options',
 			'sanitize_callback' => 'chromax_sanitize_html',
 			'transport'         => $selective_refresh,
@@ -110,7 +110,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control( 
 		'chromax_about_left_subttl',
 		array(
-		    'label'   => __('Subtitle','chromax'),
+		    'label'   => __('Subtitle','desert-companion'),
 		    'section' => 'about_options',
 			'type'           => 'textarea',
 		)  
@@ -136,7 +136,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		$wp_customize->add_control(
 			new Chromax_Page_Editor(
 				$wp_customize, 'chromax_about_left_content', array(
-					'label' => esc_html__( 'Content', 'chromax' ),
+					'label' => esc_html__( 'Content', 'desert-companion' ),
 					'section' => 'about_options',
 					'needsync' => true,
 				)
@@ -160,7 +160,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	'chromax_about_right_options',
 		array(
 			'type' => 'hidden',
-			'label' => __('Right Content','chromax'),
+			'label' => __('Right Content','desert-companion'),
 			'section' => 'about_options',
 		)
 	);
@@ -179,7 +179,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		$wp_customize->add_control(
 			new Chromax_Page_Editor(
 				$wp_customize, 'chromax_about_right_content', array(
-					'label' => esc_html__( 'Content', 'chromax' ),
+					'label' => esc_html__( 'Content', 'desert-companion' ),
 					'section' => 'about_options',
 					'needsync' => true,
 				)
