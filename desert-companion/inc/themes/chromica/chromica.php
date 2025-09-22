@@ -17,9 +17,9 @@ require desert_companion_plugin_dir . 'inc/themes/chromax/customizer/chromax-sel
 if ( ! function_exists( 'desert_companion_chromax_frontpage_sections' ) ) :
 	function desert_companion_chromax_frontpage_sections() {	
 		require desert_companion_plugin_dir . 'inc/themes/chromax/front/section-slider.php';
-		require desert_companion_plugin_dir . 'inc/themes/chromax/front/section-information.php';
+		require desert_companion_plugin_dir . 'inc/themes/chromica/front/section-information.php';
 		require desert_companion_plugin_dir . 'inc/themes/chromax/front/section-about.php';
-		require desert_companion_plugin_dir . 'inc/themes/chromax/front/section-service.php';
+		require desert_companion_plugin_dir . 'inc/themes/chromica/front/section-service.php';
 		require desert_companion_plugin_dir . 'inc/themes/chromax/front/section-why-choose.php';
 		require desert_companion_plugin_dir . 'inc/themes/chromax/front/section-blog.php';
     }

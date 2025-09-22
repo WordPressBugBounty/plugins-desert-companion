@@ -83,7 +83,7 @@ if ( ! function_exists( 'chromax_service_option_after' ) ) {
  * Chromax Information Default
  */
 $desert_activated_theme = wp_get_theme(); // gets the current theme
-if ( 'Chrowix' == $desert_activated_theme->name){ 
+if ( 'Chrowix' == $desert_activated_theme->name || 'Chromica' == $desert_activated_theme->name){ 
  function chromax_information_options_default() {
 	return apply_filters(
 		'chromax_information_options_default', json_encode(
