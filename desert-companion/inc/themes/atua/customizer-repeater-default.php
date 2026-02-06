@@ -136,7 +136,7 @@ if( 'Flexeo' == $desert_activated_theme->name){
 		)
 	);
 }
-}elseif( 'Altra' == $desert_activated_theme->name || 'Avvy' == $desert_activated_theme->name || 'Flexea' == $desert_activated_theme->name  || 'Atrux' == $desert_activated_theme->name || 'Fluxa' == $desert_activated_theme->name || 'Flexina' == $desert_activated_theme->name  || 'Flexiva' == $desert_activated_theme->name){
+}elseif( 'Altra' == $desert_activated_theme->name || 'Avvy' == $desert_activated_theme->name || 'Flexea' == $desert_activated_theme->name  || 'Atrux' == $desert_activated_theme->name || 'Fluxa' == $desert_activated_theme->name || 'Flexina' == $desert_activated_theme->name  || 'Flexiva' == $desert_activated_theme->name  || 'Zinify' == $desert_activated_theme->name){
 	function atua_information_options_default() {
 		return apply_filters(
 			'atua_information_options_default', json_encode(

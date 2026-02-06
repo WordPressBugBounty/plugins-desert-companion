@@ -2,8 +2,8 @@
 Contributors: Desertthemes
 Tags: projects, widgets, admin, companion, homepage
 Requires at least: 4.6 or higher
-Tested up to: 6.8
-Stable tag: 1.0.91
+Tested up to: 6.9
+Stable tag: 1.0.94
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -98,6 +98,15 @@ Licenses - https://github.com/uikit/uikit/blob/develop/LICENSE.md
 Source: https://www.getuikit.com
 
 == Changelog ==
+
+= 1.0.94 =
+* NewsMemo Theme Files Updated
+
+= 1.0.93 =
+* Softica Theme Files Updated
+
+= 1.0.92 =
+* Zinify Theme Files Updated
 
 = 1.0.91 =
 * Chromica Theme Files Updated
