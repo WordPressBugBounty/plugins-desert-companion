@@ -132,7 +132,9 @@ class Desert_Companion_Customize_Upgrade_Control extends WP_Customize_Control {
 		elseif('Zinify' == $desert_activated_theme->name):
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/zinify-pro/';	
 		elseif('Softica' == $desert_activated_theme->name):
-			$upgrade_to_pro_link = 'https://desertthemes.com/themes/softica-pro/';			
+			$upgrade_to_pro_link = 'https://desertthemes.com/themes/softica-pro/';	
+		elseif('Coviant' == $desert_activated_theme->name):
+			$upgrade_to_pro_link = 'https://desertthemes.com/themes/coviant-pro/';	
 		else:
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/cosmobit-pro/';
 		endif;	

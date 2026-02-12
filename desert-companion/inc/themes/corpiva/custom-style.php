@@ -17,7 +17,7 @@ if( ! function_exists( 'desert_corpiva_user_custom_style' ) ):
 					background-color: rgba($color1, $color2, $color3, $corpiva_slider_opacity);
 				}\n";	
 				
-        wp_add_inline_style( 'atua-style', $corpiva_print_style );
+        wp_add_inline_style( 'corpiva-style', $corpiva_print_style );
     }
 endif;
 add_action( 'wp_enqueue_scripts', 'desert_corpiva_user_custom_style' );

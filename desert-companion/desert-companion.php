@@ -3,7 +3,7 @@
 * Plugin Name:       	Desert Companion
 * Plugin URI:        	
 * Description:       	Desert Companion Enhances Desert Themes with additional functionality.
-* Version:           	1.0.94
+* Version:           	1.0.95
 * Author: 				Desertthemes
 * Author URI: 			http://desertthemes.com/
 * Tested up to: 		6.9
@@ -249,6 +249,11 @@ if( !function_exists('desert_companion_init') ){
 		// Softica Theme
 		if( 'Softica' == $desert_activated_theme->name){
 			require desert_companion_plugin_dir . 'inc/themes/softica/softica.php';
+		}
+		
+		// Coviant Theme
+		if( 'Coviant' == $desert_activated_theme->name){
+			require desert_companion_plugin_dir . 'inc/themes/coviant/coviant.php';
 		}
 	}
 	add_action( 'init', 'desert_companion_init' );

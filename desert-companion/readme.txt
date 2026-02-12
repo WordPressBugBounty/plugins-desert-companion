@@ -3,7 +3,7 @@ Contributors: Desertthemes
 Tags: projects, widgets, admin, companion, homepage
 Requires at least: 4.6 or higher
 Tested up to: 6.9
-Stable tag: 1.0.94
+Stable tag: 1.0.95
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -98,6 +98,9 @@ Licenses - https://github.com/uikit/uikit/blob/develop/LICENSE.md
 Source: https://www.getuikit.com
 
 == Changelog ==
+
+= 1.0.95 =
+* Coviant Theme Files Updated
 
 = 1.0.94 =
 * NewsMemo Theme Files Updated

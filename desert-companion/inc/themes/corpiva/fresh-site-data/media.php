@@ -10,6 +10,8 @@ $site_logo = desert_companion_plugin_dir .'inc/themes/advancea/assets/images/log
 $site_logo = desert_companion_plugin_dir .'inc/themes/avanta/assets/images/logo.png';
 }elseif ( 'Corvine' == $desert_activated_theme->name){
 $site_logo = desert_companion_plugin_dir .'inc/themes/corvine/assets/images/logo.png';
+}elseif ( 'Coviant' == $desert_activated_theme->name){
+$site_logo = desert_companion_plugin_dir .'inc/themes/coviant/assets/images/logo.png';
 }else{
 $site_logo = desert_companion_plugin_dir .'inc/themes/corpiva/assets/images/logo.png';
 }
