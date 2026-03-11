@@ -142,6 +142,35 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	);
 	
 	// Service 
+	$desert_activated_theme = wp_get_theme(); // gets the current theme
+	if ( 'Corvix' == $desert_activated_theme->name){
+		$wp_customize->add_setting( 'chromax_service_option', 
+			array(
+			 'sanitize_callback' => 'chromax_repeater_sanitize',
+			 'priority' => 5,
+			  'default' => chromax_service_options_default()
+			)
+		);
+		
+		$wp_customize->add_control( 
+			new Chromax_Repeater( $wp_customize, 
+				'chromax_service_option', 
+					array(
+						'label'   => esc_html__('Service','desert-companion'),
+						'section' => 'service_options',
+						'add_field_label'                   => esc_html__( 'Add New Service', 'desert-companion' ),
+						'item_name'                         => esc_html__( 'Service', 'desert-companion' ),
+						
+						'customizer_repeater_title_control' => true,
+						'customizer_repeater_text_control' => true,
+						'customizer_repeater_text2_control' => true,
+						'customizer_repeater_link_control' => true,
+						'customizer_repeater_icon_control' => true,
+						'customizer_repeater_image_control' => true
+					) 
+				) 
+			);
+	}else{
 		$wp_customize->add_setting( 'chromax_service_option', 
 			array(
 			 'sanitize_callback' => 'chromax_repeater_sanitize',
@@ -167,7 +196,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 					) 
 				) 
 			);
-	
+	}
 	// Upgrade
 	$wp_customize->add_setting(
 	'chromax_service_option_upsale', 

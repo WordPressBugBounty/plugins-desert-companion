@@ -17,7 +17,7 @@ if( ! function_exists( 'desert_chromax_user_custom_style' ) ):
 					background-color: rgba($color1, $color2, $color3, $chromax_slider_opacity);
 				}\n";	
 				
-        wp_add_inline_style( 'atua-style', $chromax_print_style );
+        wp_add_inline_style( 'chromax-style', $chromax_print_style );
     }
 endif;
 add_action( 'wp_enqueue_scripts', 'desert_chromax_user_custom_style' );

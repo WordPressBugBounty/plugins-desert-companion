@@ -28,7 +28,7 @@ $activate_theme_widget = array(
                                 <ol class="list_none inf_list">
                                     <li>
                                         <a href="#">
-                                            <i aria-hidden="true" class="text-primary dt-mr-2 fal fa-phone-volume"></i> <span>+1-888-452-1505</span>
+                                            <i aria-hidden="true" class="text-primary dt-mr-2 fal fa-phone-volume"></i> <span>+123 7878 222</span>
                                         </a>
                                     </li>
                                     <li>

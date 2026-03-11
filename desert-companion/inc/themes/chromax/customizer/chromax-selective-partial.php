@@ -53,3 +53,23 @@ function chromax_blog_ttl_render_callback() {
 function chromax_blog_subttl_render_callback() {
 	return get_theme_mod( 'chromax_blog_subttl' );
 }
+
+// chromax_cta_ttl
+function chromax_cta_ttl_render_callback() {
+	return get_theme_mod( 'chromax_cta_ttl' );
+}
+
+// chromax_cta_subttl
+function chromax_cta_subttl_render_callback() {
+	return get_theme_mod( 'chromax_cta_subttl' );
+}
+
+// chromax_cta_text
+function chromax_cta_text_render_callback() {
+	return get_theme_mod( 'chromax_cta_text' );
+}
+
+// chromax_cta_btn_lbl
+function chromax_cta_btn_lbl_render_callback() {
+	return get_theme_mod( 'chromax_cta_btn_lbl' );
+}

@@ -210,6 +210,7 @@ if ( 'Chrowix' == $desert_activated_theme->name){
 					'icon_value'       => 'fas fa-compass',
 					'title'           => esc_html__( 'Tech Innovation', 'desert-companion' ),
 					'text'	  =>  esc_html__( 'We are web designers, developers, project managers.', 'desert-companion' ),
+					'text2'	  =>  esc_html__( 'Get Started', 'desert-companion' ),
 					'link'            => '#',
 					'id'              => 'chromax_customizer_repeater_service_001'					
 				),
@@ -218,6 +219,7 @@ if ( 'Chrowix' == $desert_activated_theme->name){
 					'icon_value'       => 'fas fa-users',
 					'title'           => esc_html__( 'Market Analysis', 'desert-companion' ),
 					'text'	  =>  esc_html__( 'We are web designers, developers, project managers.', 'desert-companion' ),
+					'text2'	  =>  esc_html__( 'Get Started', 'desert-companion' ),
 					'link'            => '#',
 					'id'              => 'chromax_customizer_repeater_service_002'
 				),
@@ -226,6 +228,7 @@ if ( 'Chrowix' == $desert_activated_theme->name){
 					'icon_value'       => 'fas fa-life-ring',
 					'title'           => esc_html__( 'Web & App Design', 'desert-companion' ),
 					'text'	  =>  esc_html__( 'We are web designers, developers, project managers.', 'desert-companion' ),
+					'text2'	  =>  esc_html__( 'Get Started', 'desert-companion' ),
 					'link'            => '#',
 					'id'              => 'chromax_customizer_repeater_service_003'
 				),
@@ -234,6 +237,7 @@ if ( 'Chrowix' == $desert_activated_theme->name){
 					'icon_value'       => 'fas fa-chart-pie',
 					'title'           => esc_html__( 'Data Security', 'desert-companion' ),
 					'text'	  =>  esc_html__( 'We are web designers, developers, project managers.', 'desert-companion' ),
+					'text2'	  =>  esc_html__( 'Get Started', 'desert-companion' ),
 					'link'            => '#',
 					'id'              => 'chromax_customizer_repeater_service_004'	
 				),
@@ -242,6 +246,7 @@ if ( 'Chrowix' == $desert_activated_theme->name){
 					'icon_value'       => 'fas fa-lightbulb',
 					'title'           => esc_html__( 'Business Consulting', 'desert-companion' ),
 					'text'	  =>  esc_html__( 'We are web designers, developers, project managers.', 'desert-companion' ),
+					'text2'	  =>  esc_html__( 'Get Started', 'desert-companion' ),
 					'link'            => '#',
 					'id'              => 'chromax_customizer_repeater_service_005'	
 				)
