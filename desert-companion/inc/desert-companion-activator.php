@@ -32,6 +32,9 @@ class Desert_Companion_Activator {
 			}elseif('Chromax' == $desert_activated_theme->name  ||  'Chrowix' == $desert_activated_theme->name  ||  'Chromica' == $desert_activated_theme->name  ||  'Corvix' == $desert_activated_theme->name){
 				 require desert_companion_plugin_dir .'inc/themes/chromax/fresh-site-data/media.php';
 				 require desert_companion_plugin_dir .'inc/themes/chromax/fresh-site-data/widget.php';
+			}elseif('Ploto' == $desert_activated_theme->name){
+				 require desert_companion_plugin_dir .'inc/themes/ploto/fresh-site-data/media.php';
+				 require desert_companion_plugin_dir .'inc/themes/ploto/fresh-site-data/widget.php';
 			}
 			
 			$pages = array( esc_html__( 'Home', 'desert-companion' ), esc_html__( 'Blog', 'desert-companion' ) );
