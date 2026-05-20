@@ -83,9 +83,6 @@ if($ploto_faq_options_hide_show=='1'):
 						</div>
 						<div class="faq-single-card">
 							<div class="faq-car-inner">
-								<div class="bg-image">
-									<img src="<?php echo esc_url(desert_companion_plugin_url . '/inc/themes/ploto/assets/images/faq-bg01.jpg'); ?>" alt="">
-								</div>
 								<div class="dt-top-right wow slideInRight">
 									<img src="<?php echo esc_url(desert_companion_plugin_url . '/inc/themes/ploto/assets/images/faq-shape.png'); ?>" alt="">
 								</div>

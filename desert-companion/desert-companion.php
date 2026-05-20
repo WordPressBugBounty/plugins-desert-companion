@@ -3,10 +3,10 @@
 * Plugin Name:       	Desert Companion
 * Plugin URI:        	
 * Description:       	Desert Companion Enhances Desert Themes with additional functionality.
-* Version:           	1.0.97
+* Version:           	1.0.98
 * Author: 				Desertthemes
 * Author URI: 			http://desertthemes.com/
-* Tested up to: 		6.9
+* Tested up to: 		7.0
 * Requires: 			4.6 or higher
 * License: 				GPLv3 or later
 * License URI: 			http://www.gnu.org/licenses/gpl-3.0.html
