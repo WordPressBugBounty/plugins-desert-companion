@@ -1,5 +1,10 @@
 <?php
-$site_logo = desert_companion_plugin_dir .'inc/themes/ploto/assets/images/logo.png';
+$desert_activated_theme = wp_get_theme(); // gets the current theme
+if ( 'Atromax' == $desert_activated_theme->name){
+$site_logo = desert_companion_plugin_dir .'inc/themes/atromax/assets/images/logo.png';
+}else{
+$site_logo = desert_companion_plugin_dir .'inc/themes/ploto/assets/images/logo.png';	
+}
 $theme_img_path = desert_companion_plugin_dir .'inc/themes/ploto/assets/images';
 
 $images = array(
