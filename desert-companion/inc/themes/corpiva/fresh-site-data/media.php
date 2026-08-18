@@ -12,6 +12,8 @@ $site_logo = desert_companion_plugin_dir .'inc/themes/avanta/assets/images/logo.
 $site_logo = desert_companion_plugin_dir .'inc/themes/corvine/assets/images/logo.png';
 }elseif ( 'Coviant' == $desert_activated_theme->name){
 $site_logo = desert_companion_plugin_dir .'inc/themes/coviant/assets/images/logo.png';
+}elseif ( 'Achrovin' == $desert_activated_theme->name){
+$site_logo = desert_companion_plugin_dir .'inc/themes/achrovin/assets/images/logo.png';
 }else{
 $site_logo = desert_companion_plugin_dir .'inc/themes/corpiva/assets/images/logo.png';
 }

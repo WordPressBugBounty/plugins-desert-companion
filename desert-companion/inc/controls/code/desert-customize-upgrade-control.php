@@ -140,7 +140,9 @@ class Desert_Companion_Customize_Upgrade_Control extends WP_Customize_Control {
 		elseif('Ploto' == $desert_activated_theme->name):
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/ploto-pro/';
 		elseif('Atromax' == $desert_activated_theme->name):
-			$upgrade_to_pro_link = 'https://desertthemes.com/themes/atromax-pro/';	
+			$upgrade_to_pro_link = 'https://desertthemes.com/themes/atromax-pro/';
+		elseif('Achrovin' == $desert_activated_theme->name):
+			$upgrade_to_pro_link = 'https://desertthemes.com/themes/achrovin-pro/';	
 		else:
 			$upgrade_to_pro_link = 'https://desertthemes.com/themes/cosmobit-pro/';
 		endif;	

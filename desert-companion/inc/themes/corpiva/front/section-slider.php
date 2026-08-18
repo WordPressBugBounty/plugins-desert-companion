@@ -4,7 +4,7 @@
 	$corpiva_slider_option 					= get_theme_mod('corpiva_slider_option',corpiva_slider_options_default());
 if($corpiva_slider_options_hide_show=='1'):	
 ?>
-<section id="dt_slider" class="dt_slider dt_slider--thumbnav dt_slider--kenburn <?php echo esc_attr($corpiva_slider_design); ?>">
+<section id="dt_slider" class="dt_slider dt_slider--thumbnav dt_slider--kenburns <?php echo esc_attr($corpiva_slider_design); ?>">
 	<div class="dt_owl_carousel owl-theme owl-carousel slider" data-owl-options='{
 		"loop": true,
 		"animateOut": "fadeOut",

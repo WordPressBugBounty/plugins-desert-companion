@@ -251,6 +251,7 @@ function corpiva_get_social_icon_default() {
 					'icon_value'       => 'fas fa-compass',
 					'title'           => esc_html__( 'Technology Solution', 'desert-companion' ),
 					'text'	  =>  esc_html__( 'Developing a comprehensive IT strategy that aligns.', 'desert-companion' ),
+					'text2'	  =>  esc_html__( 'Read More', 'desert-companion' ),
 					'link'            => '#',
 					'id'              => 'corpiva_customizer_repeater_information_001'					
 				),
@@ -258,6 +259,7 @@ function corpiva_get_social_icon_default() {
 					'icon_value'       => 'fas fa-users',
 					'title'           => esc_html__( 'IT Service', 'desert-companion' ),
 					'text'	  =>  esc_html__( 'Developing a comprehensive IT strategy that aligns.', 'desert-companion' ),
+					'text2'	  =>  esc_html__( 'Read More', 'desert-companion' ),
 					'link'            => '#',
 					'id'              => 'corpiva_customizer_repeater_information_002'
 				),
@@ -265,6 +267,7 @@ function corpiva_get_social_icon_default() {
 					'icon_value'       => 'fas fa-life-ring',
 					'title'           => esc_html__( 'Web & App Design', 'desert-companion' ),
 					'text'	  =>  esc_html__( 'Developing a comprehensive IT strategy that aligns.', 'desert-companion' ),
+					'text2'	  =>  esc_html__( 'Read More', 'desert-companion' ),
 					'link'            => '#',
 					'id'              => 'corpiva_customizer_repeater_information_003'
 				),
@@ -272,6 +275,7 @@ function corpiva_get_social_icon_default() {
 					'icon_value'       => 'fas fa-chart-pie',
 					'title'           => esc_html__( 'Data Tracking Security', 'desert-companion' ),
 					'text'	  =>  esc_html__( 'Developing a comprehensive IT strategy that aligns.', 'desert-companion' ),
+					'text2'	  =>  esc_html__( 'Read More', 'desert-companion' ),
 					'link'            => '#',
 					'id'              => 'corpiva_customizer_repeater_information_004'	
 				)

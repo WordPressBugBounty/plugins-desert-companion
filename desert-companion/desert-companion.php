@@ -3,7 +3,7 @@
 * Plugin Name:       	Desert Companion
 * Plugin URI:        	
 * Description:       	Desert Companion Enhances Desert Themes with additional functionality.
-* Version:           	1.0.99
+* Version:           	1.1
 * Author: 				Desertthemes
 * Author URI: 			http://desertthemes.com/
 * Tested up to: 		7.0
@@ -269,6 +269,11 @@ if( !function_exists('desert_companion_init') ){
 		// Atromax Theme
 		if( 'Atromax' == $desert_activated_theme->name){
 			require desert_companion_plugin_dir . 'inc/themes/atromax/atromax.php';
+		}
+		
+		// Achrovin Theme
+		if( 'Achrovin' == $desert_activated_theme->name){
+			require desert_companion_plugin_dir . 'inc/themes/achrovin/achrovin.php';
 		}
 	}
 	add_action( 'init', 'desert_companion_init' );
