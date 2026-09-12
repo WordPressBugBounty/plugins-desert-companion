@@ -3,10 +3,10 @@
 * Plugin Name:       	Desert Companion
 * Plugin URI:        	
 * Description:       	Desert Companion Enhances Desert Themes with additional functionality.
-* Version:           	1.1
+* Version:           	1.2
 * Author: 				Desertthemes
 * Author URI: 			http://desertthemes.com/
-* Tested up to: 		7.0
+* Tested up to: 		7.1
 * Requires: 			4.6 or higher
 * License: 				GPLv3 or later
 * License URI: 			http://www.gnu.org/licenses/gpl-3.0.html
@@ -274,6 +274,11 @@ if( !function_exists('desert_companion_init') ){
 		// Achrovin Theme
 		if( 'Achrovin' == $desert_activated_theme->name){
 			require desert_companion_plugin_dir . 'inc/themes/achrovin/achrovin.php';
+		}
+		
+		// Corbit Theme
+		if( 'Corbit' == $desert_activated_theme->name){
+			require desert_companion_plugin_dir . 'inc/themes/corbit/corbit.php';
 		}
 	}
 	add_action( 'init', 'desert_companion_init' );
